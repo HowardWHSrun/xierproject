@@ -52,7 +52,9 @@ data/processed/**/*.geojson
 # Analysis outputs (keep CSVs, exclude large GeoJSONs)
 data/analysis/**/*.geojson
 
-# Outputs (keep HTML and reports, exclude large figures)
+# Outputs (keep reports, exclude large HTML maps and figures)
+outputs/maps/*.html
+outputs/dashboards/*.html
 outputs/figures/**/*
 !outputs/figures/**/.gitkeep
 
